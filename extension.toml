@@ -7,4 +7,4 @@ description = "Smelly language support for Zed"
 
 [grammars.smelly]
 repository = "https://github.com/netmask/tree-sitter-smelly"
-rev = "def0158998d97c3725629bbb34ff253412b5d0bb"
+rev = "68e7e95158be1f2b466a990ab327870193c01e2b"

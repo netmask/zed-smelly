@@ -17,9 +17,11 @@
   "type"
   "yield"
   "receive"
-  "true"
-  "false"
 ] @keyword
+
+; Booleans (named nodes, not anonymous keywords)
+(true) @boolean
+(false) @boolean
 
 ; Function definitions
 (fn_def
@@ -79,10 +81,6 @@
 (integer) @number
 (float) @number
 
-; Booleans
-(true) @boolean
-(false) @boolean
-
 ; Comments
 (comment) @comment
 
@@ -111,9 +109,6 @@
 ; Region names
 (region_stmt
   name: (identifier) @variable.special)
-
-; Match arm patterns — wildcard
-(pattern "_" @variable.builtin)
 
 ; Lambda
 (lambda "|" @punctuation.delimiter)
