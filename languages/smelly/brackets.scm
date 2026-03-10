@@ -1,0 +1,12 @@
+("(" @open ")" @close)
+("[" @open "]" @close)
+("{" @open "}" @close)
+
+(fn_def "fn" @open "end" @close)
+(if_stmt "if" @open "end" @close)
+(while_stmt "while" @open "end" @close)
+(match_stmt "match" @open "end" @close)
+(region_stmt "region" @open "end" @close)
+(macro_def "macro" @open "end" @close)
+(type_def "type" @open "end" @close)
+(receive_expr "receive" @open "end" @close)

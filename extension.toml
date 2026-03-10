@@ -1,0 +1,10 @@
+id = "smelly"
+name = "Smelly"
+version = "0.0.1"
+schema_version = 1
+authors = ["netmask"]
+description = "Smelly language support for Zed"
+
+[grammars.smelly]
+repository = "https://github.com/netmask/tree-sitter-smelly"
+rev = "215dd9e453624bf25934cf5c8c44b0a666403cd0"
